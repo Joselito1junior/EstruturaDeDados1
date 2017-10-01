@@ -1,6 +1,6 @@
 /*
-	Falta implementar a inserção de disciplinas que trata-se de uma lista encadeada
-	Falta o coódigo também tem muitas funções que não são usadas no primeiro momento, mas que foram criadas para futuras implementações
+	Falta implementar a inserção de disciplinas com base em lista encadeada
+	O código tem muitas funções que não são usadas no primeiro momento, mas que foram criadas para futuras implementações.
 */
 
 #include <stdio.h>
