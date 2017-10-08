@@ -10,12 +10,16 @@
 	---------------------------------------------------------------
 	Finalizados:| Funções de Manipulação da lista
 				| Gerenciamento de remoção
-	---------------------------------------------------------------
-	Finalizando:| Telas de interface com usuário
-    ---------------------------------------------------------------				
-	A finalizar:| Gerenciamento de Inserção
+				| Telas de interface com usuário
+				| Gerenciamento de Inserção
 				| Gerenciamento de pesquisa na lista
 				| Gerenciamento de tamanho da lista (Vazia / Cheia / Tamanho total)
+	---------------------------------------------------------------
+	Finalizando:| 
+    ---------------------------------------------------------------				
+	A finalizar:| 
+				| 
+				| 
 	-------------------------------------------------------------------------------
 */
 #include<stdio.h>
