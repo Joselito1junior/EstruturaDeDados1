@@ -61,20 +61,7 @@ int remove_no(int opcao, t_no * lista);			//Função que gerencia a remoção de
 void menu_tamanho_lista(t_no * lista);
 int menu_lista_nomes(t_no * lista);
 t_elemento menu_inserir_dados();
-
-t_elemento menu_busca_nome()
-{
-	t_elemento nome_busca;
-
-	printf("\n=================================== \n");
-	printf("=      BUSCAR NOME NA LISTA        =\n");
-	printf("=================================== \n");
-	printf("|DIGITE O NOME: ");
-	scanf("%s", &nome_busca.nome);
-
-	return nome_busca;
-}
-
+t_elemento menu_busca_nome();
 
 ////////////////////////////////////////////////
 //////////////////PRINCIPAL/////////////////////
@@ -384,4 +371,17 @@ t_elemento menu_inserir_dados()
 	scanf("%s", &nome_user.nome);
 
 	return nome_user;
+}
+
+t_elemento menu_busca_nome()
+{
+	t_elemento nome_busca;
+
+	printf("\n=================================== \n");
+	printf("=      BUSCAR NOME NA LISTA        =\n");
+	printf("=================================== \n");
+	printf("|DIGITE O NOME: ");
+	scanf("%s", &nome_busca.nome);
+
+	return nome_busca;
 }
